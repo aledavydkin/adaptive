@@ -206,10 +206,9 @@ h1 {
     color: #e7e7e7;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: calc( (100vw - 961px)/(1920 - 961) * (80 - 64) + 64px);
-    margin-top: -5%;
-    margin-bottom: 11%;
+
 }
+
 
 .advantages__img {
     max-width: 100%;
@@ -217,66 +216,42 @@ h1 {
 
 .advantages__left {
     position: relative;
-    width: 50%;
 }
+
 
 .advantages__right {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-basis: 50%;
-    padding-left: calc( (100vw - 961px)/(1920 - 961) * (125 - 110) + 110px);
+
 }
 
-.advantages__description {
-    font-size: 2.4rem;
-}
 
-.advantages:nth-child(odd) {
-    flex-direction: row-reverse;
-}
 
-.advantages:nth-child(odd) .advantages__left:before{
-    left: -84px;
-    right: 0;
-}
 
-.advantages:nth-child(odd) .advantages__left:after{
-    right: 0;
-    top: 40%;
-    left: -12px;
-}
 
-.advantages:nth-child(odd) .advantages__right {
-    padding-right: 9rem;
-    padding-left: calc( (100vw - 961px)/(1920 - 961) * (125 - 10) + 10px);
-}
+
 
 .advantages__left:before {
     position: absolute;
     display: -webkit-box;
     display: flex;
     box-sizing: border-box;
-    content: "01";
+    content: "0" counter(feature);
     -webkit-box-pack: center;
     justify-content: center;
     background-color: #5e42b0;
     color: #f5f6f7;
     right: -84px;
-    top: calc(40% - 9rem);
-    padding-top: 55px;
-    width: 168px;
     font-weight: bold;
-    height: 155px;
-    font-size: 24px;
 }
+
 
 .advantages__left:after {
     right: -10px;
-    top: 40%;
-    width: 22px;
     height: 5px;
 }
+
 .advantages__left:after {
     position: absolute;
     content: "";
@@ -341,6 +316,62 @@ h1 {
         width: 1.9rem;
         top: 3.4rem;
     }
+
+
+
+    .advantages__left {
+        width: 50%;
+    }
+
+    .advantages:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .advantages__title {
+        font-size: calc( (100vw - 961px)/(1920 - 961) * (80 - 64) + 64px);
+        margin-top: -5%;
+        margin-bottom: 11%;
+    }
+
+    .advantages:nth-child(odd) .advantages__right {
+        padding-right: 9rem;
+        padding-left: calc( (100vw - 961px)/(1920 - 961) * (125 - 10) + 10px);
+    }
+
+    .advantages:nth-child(odd) .advantages__left:before{
+        left: -84px;
+        right: 0;
+    }
+
+    .advantages:nth-child(odd) .advantages__left:after{
+        right: 0;
+        top: 40%;
+        left: -12px;
+    }
+
+    .advantages__right {
+        flex-basis: 50%;
+        padding-left: calc( (100vw - 961px)/(1920 - 961) * (125 - 110) + 110px);
+    }
+
+    .advantages__left:before {
+        top: calc(40% - 9rem);
+        padding-top: 55px;
+        width: 168px;
+        height: 155px;
+        font-size: 24px;
+    }
+
+    .advantages__left:after {
+        top: 40%;
+        width: 22px;
+        height: 5px;
+    }
+
+    .advantages__description {
+        font-size: 2.4rem;
+    }
+
 
 }
 
@@ -420,6 +451,47 @@ h1 {
         padding: 4rem 35.5rem 6.5rem 3rem;
     }
 
+
+    
+    .advantages {
+        flex-direction: column;
+    }
+
+    .advantages__left {
+        width: 100%;
+    }
+
+    .advantages__right {
+        padding: 5.5rem 8.5rem 10rem 3rem;
+    }
+
+    .advantages__title {
+        font-size: 8rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .advantages__left:before {
+        top: auto;
+        left: 33px;
+        bottom: -25px;
+        padding-top: 35px;
+        width: 116px;
+        height: 116px;
+        font-size: 24px;
+    }
+
+
+    .advantages__left:after {
+        left: 78px;
+        bottom: 16px;
+        width: 22px;
+        height: 5px;
+    }
+
+    .advantages__description {
+        font-size: 2.4rem;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 740px) {
@@ -514,6 +586,40 @@ h1 {
     .view-sports__item {
         padding: 5rem 2rem  5rem 2rem;
     }
+
+
+
+    .advantages__title {
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .advantages__description {
+        font-size: 1.6rem;
+    }
+
+    .advantages__right {
+        padding: 2.5rem 2rem 7.5rem 2rem;
+
+    }
+
+    .advantages__left:before {
+        left: 20px;
+        bottom: -10px;
+        width: 70px;
+        height: 70px;
+        padding-top: 23px;
+        font-size: 14px;
+        top: auto;
+    }
+
+    .advantages__left:after {
+        left: 46px;
+        bottom: 13px;
+        width: 16px;
+        height: 4px;
+    }
+
 
 }
 
