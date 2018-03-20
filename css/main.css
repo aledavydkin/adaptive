@@ -18,7 +18,6 @@
 
 }
 
-
 html {
     font-size: 62.5%;
 }
@@ -64,7 +63,6 @@ body {
 .title__two {
     display: block;
 }
-
 
 .download {
     display: flex;
@@ -229,7 +227,7 @@ body {
 
 .footer {
     background-color: #0f0f32;
-    background-size: 100% auto;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -582,6 +580,7 @@ body {
     }
 
     .footer {
+        background-image: url(../images/footer-m.jpg);
         min-height: 960px;
         padding-top: 12.5rem;
         padding-bottom: 2rem;
@@ -788,6 +787,7 @@ body {
     }
 
     .footer {
+        background-image: url(../images/footer-m.jpg);
         min-height: 560px;
         padding-top: 10rem;
         padding-bottom: 0.6rem;
