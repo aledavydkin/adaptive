@@ -275,7 +275,7 @@ body {
     }
 
     .header-wrapper {
-        background-image: url(../images/header-background-1920.png);
+        background-image: url(../images/header-background-1920.jpg);
         min-height: 650px;
     }
 
@@ -445,7 +445,7 @@ body {
 @media (min-width: 641px) and (max-width: 960px) {
 
     .header-wrapper {
-        background-image: url(../images/header-background-768.png);
+        background-image: url(../images/header-background-768.jpg);
         min-height: 96rem;
     }
 
@@ -611,7 +611,6 @@ body {
 
 }
 
-
 @media (min-width: 641px) and (max-width: 740px) {
 
     .view-sports:nth-child(3) .view-sports__item:nth-child(2) {
@@ -628,14 +627,11 @@ body {
 
 }
 
-
-
-
 @media (min-width: 320px) and (max-width: 640px) {
 
     .header-wrapper {
         min-height: 56rem;
-        background-image: url(../images/header-background-320.png);
+        background-image: url(../images/header-background-320.jpg);
     }
 
     .title__one {
