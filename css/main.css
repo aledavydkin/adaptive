@@ -34,6 +34,10 @@ body {
     min-width: 320px;
 }
 
+.wrapper {
+    counter-reset: advantages;
+}
+
 .header-wrapper {
     background-size: 100% auto;
     height: 100vh;
@@ -219,13 +223,18 @@ body {
     display: -webkit-box;
     display: flex;
     box-sizing: border-box;
-    content: "0" counter(feature);
+    counter-increment: advantages;
+    content: "0" counter(advantages);
     -webkit-box-pack: center;
     justify-content: center;
     background-color: #5e42b0;
     color: #f5f6f7;
     right: -84px;
     font-weight: bold;
+}
+
+.advantages-row {
+    counter-reset: advantages;
 }
 
 .advantages__left:after {
