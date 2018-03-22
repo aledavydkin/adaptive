@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12920c0d-b1a8-4f4a-830c-c5cfae1461f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/images/adv-img-1_320.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/adv-img-1_768.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/adv-img-1_desktop.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/adv-img-2_320.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/adv-img-2_768.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/adv-img-2_desktop.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/adv-img-3_320.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/adv-img-3_768.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/adv-img-3_desktop.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,12 +136,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519989263950</updated>
-      <workItem from="1521637370361" duration="4707000" />
+      <workItem from="1521637370361" duration="4878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4707000" />
+    <option name="totallyTimeSpent" value="4878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
