@@ -57,7 +57,6 @@ body {
     color: #ffffff;
     text-transform: uppercase;
     margin: 0 auto;
-    width: 100%;
 }
 
 .title__two {
@@ -86,6 +85,19 @@ body {
     text-transform: uppercase;
     align-items: center;
     padding: 0 40px;
+    transition: .2s linear;
+}
+
+.btn:hover {
+    background: #fff;
+}
+
+.btn:hover .download__text{
+    color: #000;
+}
+
+.btn:hover .download__download-logo {
+    fill: #000000;
 }
 
 .bold {
@@ -94,6 +106,10 @@ body {
 
 .download__text {
     padding-left: 25px;
+}
+
+.download__download-logo {
+    fill: #ffffff;
 }
 
 .view-sports {
@@ -291,11 +307,10 @@ body {
 
     .header__title {
         letter-spacing: 0.5rem;
-        max-width: 1560px;
     }
 
     .title__two {
-        text-align: right;
+        margin-left: calc( (100vw - 961px)/(1920 - 961) * (500 - 110) + 110px);
     }
 
     .download {
